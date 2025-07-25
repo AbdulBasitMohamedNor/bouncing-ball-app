@@ -6,8 +6,8 @@
     "start": "ng serve",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build": "ng build",
-    "deploy": "ng build --base-href=/bouncing-ball-app/ && npx ngh --dir=dist/bouncing-ball-app"
+    "build": "ng build --prod",
+    "deploy": "ng build --configuration production --base-href=/bouncing-ball-app/ && npx angular-cli-ghpages --dir=dist/bouncing-ball-app"
   },
   "prettier": {
     "overrides": [

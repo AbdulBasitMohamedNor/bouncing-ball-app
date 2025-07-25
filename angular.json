@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "deployUrl": "/bouncing-ball-app/",
             "outputPath": "dist/bouncing-ball-app",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
