@@ -20,6 +20,8 @@
             "deployUrl": "/bouncing-ball-app/",
             "outputPath": "dist/bouncing-ball-app",
             "browser": "src/main.ts",
+            "baseHref": "/bouncing-ball-app/",
+             "index": "src/index.html",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
